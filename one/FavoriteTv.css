@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    min-width: 1200px;
+}
+
+.overview {
+    background-color: #e6f4ff;
+    padding: 20px;
+}
+
+.overview .inner {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
+}
+
+.overview .inner .images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview .inner .images .image {
+    flex-basis: 30%;
+    width: 0px;
+    border-radius: 8px;
+}
+
+.overview .inner .title {
+    font-weight: normal;
+}
+
+.overview .inner p {
+    color: darkgrey;
+    margin: 7px;
+}
+
+.overall {
+    width: 70%;
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
+}
+
+.overall-image {
+    flex-basis: 25%;
+    flex-shrink: 0;
+    width: 0px;
+}
+
+.overall .content .tabs {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.overall .content .tabs .name {
+    margin-left: 10px;
+    margin-right: 3px;
+    color: cornflowerblue;
+}
+
+.overall .content .tabs .number {
+    padding-right: 10px;
+    color: dimgrey;
+
+}
+
+.overall .content .tabs .tip:nth-child(1) {
+    border-right: 1px solid darkgray;
+}
+
+.overall .content .tabs .tip:nth-child(2) {
+    border-right: 1px solid darkgray;
+}
+
+.overall .content .info {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.overall .content .info p {
+    text-indent: 2em;
+}
+
+.overall .content .form {
+    margin-left: 30px;
+}
+
+.overall .content .form .row {
+    display: flex;
+}
+
+.overall .content .form .row .one .name {
+    display: inline-block;
+    width: 80px;
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+.overall .content .form .row .one {
+    flex-basis: 50%;
+    margin-top: 18px;
+}
+
+.main {
+    width: 70%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
+}
+
+.top {
+    display: flex;
+    font-weight: normal;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+}
+
+.top h2 {
+    border-left: 12px solid blue;
+    padding-left: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    background: #eee;
+    height: 2px;
+    margin: 15px 0 12px 15px;
+}
+
+.main .content {
+    margin: 0 20px 20px 20px;
+    font-size: 13px;
+}
+
+.main .content .row {
+    display: flex;
+}
+
+.main .content .row .col {
+    flex-basis: 50%;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+
+.main .content .row .col .name {
+    display: inline-block;
+    width: 15%;
+    color: darkgray;
+}
+
+.footer {
+    width: 70%;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
+}
+
+.footer .actors li {
+    display: flex;
+    height: 180px;
+    padding-bottom: 18px;
+    margin: 0 18px 18px 18px;
+}
+
+.footer .actors li:not(:last-child) {
+    border-bottom: 1px solid gray;
+
+}
+
+.footer .actors li img {
+    width: 18%;
+    margin-right: 15px;
+}
+
+.footer .actors li .actor-info {
+    width: 82%;
+}
+
+.footer .actors li .actor-info .actor {
+    color: cornflowerblue;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.footer .actors li .actor-info .item .job {
+    color: darkgray;
+    font-size: 12px;
+    
+}
+
+.footer .actors li .actor-info .item .name {
+    font-size: 13px;
+}
+.footer .actors li .actor-info p{
+    font-size: 14px;
+    margin-top: 20px;
+}
