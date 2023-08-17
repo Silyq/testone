@@ -1,0 +1,114 @@
+input,textarea:focus {
+    outline: none;
+}
+
+/* 顶部 */
+.backgr {
+    background-color: rgb(90, 79, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.imgs img {
+    width: 20%;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.imgs img:hover {
+    cursor: move;
+    transform: rotateZ(20deg);
+}
+
+/* 顶部 */
+
+.order {
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+}
+
+.order .info .order-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order .info .order-info .choice {
+    display: flex;
+}
+
+.order .info .order-info .choice .choice-info {
+    margin-right: 20px;
+}
+
+.order .info .order-info .title::after {
+    content: ":";
+}
+
+.order .info .order-info .title {
+    margin-right: 16px;
+    flex-basis: 25%;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.order-info .choice {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-info .choice .checkbox-info {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.order-info .choice .checkbox-info .checkbox-info-label {
+    padding: 0px 8px;
+}
+
+.order .info #btn {
+    justify-content: center;
+}
+
+.order .info #btn .btn {
+    height: 40px;
+    margin-right: 20px;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.order .info #btn .give{
+    background-color:royalblue;
+    color: white;
+}
+textarea{
+    padding: 7px;
+}
+.goBack{
+    display: none;
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    width: 30px;
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid #595959;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
