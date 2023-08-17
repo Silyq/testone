@@ -49,16 +49,12 @@ input,textarea:focus {
     display: flex;
 }
 
-.order .info .order-info .choice .choice-info {
-    margin-right: 20px;
-}
-
 .order .info .order-info .title::after {
     content: ":";
 }
 
 .order .info .order-info .title {
-    margin-right: 16px;
+    margin-right: 12px;
     flex-basis: 25%;
     text-align: right;
     flex-shrink: 0;
