@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./tea.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="backgr">
+        <div class="imgs">
+            <img src="./task2/mt1.jpg" alt="">
+            <img src="./task2/mt2.jpg" alt="">
+            <img src="./task2/mt3.jpg" alt="">
+            <img src="./task2/mt4.jpg" alt="">
+        </div>
+    </div>
+    <!-- 顶部 -->
+    <!-- 订单 -->
+    <div class="order">
+        <form action="" class="info" method="post">
+            <!-- 奶茶口味 -->
+            <div class="order-info">
+                <legend class="title" for="tast">奶茶口味</legend>
+                <div class="choice">
+                    <div class="choice-info">
+                        <input type="radio" name="tast" id="芋泥啵啵" value="芋泥啵啵" checked>
+                        <label class="choice-info-label" for="芋泥啵啵">芋泥啵啵</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="tast" id="芝芝桃桃" value="芝芝桃桃">
+                        <label class="choice-info-label" for="芝芝桃桃">芝芝桃桃</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="tast" id="多肉葡萄" value="多肉葡萄">
+                        <label class="choice-info-label" for="多肉葡萄">多肉葡萄</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 几杯 -->
+            <div class="order-info">
+                <legend class="title">几杯</legend>
+                <div class="choice">
+                    <input type="number" name="number" id="number" min="1" required>
+                </div>
+            </div>
+            <!-- 几杯 -->
+
+            <!-- 杯型 -->
+            <div class="order-info">
+                <legend class="title" for="symbol">杯型</legend>
+                <div class="choice">
+                    <div class="choice-info">
+                        <input type="radio" name="symbol" id="超大杯" value="超大杯" checked required>
+                        <label class="choice-info-label" for="超大杯">超大杯</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="symbol" id="大杯" value="大杯" required>
+                        <label class="choice-info-label" for="大杯">大杯</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="symbol" id="中杯" value="中杯" required>
+                        <label class="choice-info-label" for="中杯">中杯</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 杯型 -->
+
+            <!-- 甜度 -->
+            <div class="order-info">
+                <legend class="title" for="sweet">甜度</legend>
+                <div class="choice">
+                    <select name="sweet" required>
+                        <option value="无糖">无糖</option>
+                        <option value="三分糖">三分糖</option>
+                        <option value="五分糖">五分糖</option>
+                        <option value="全糖" selected>全糖</option>
+                    </select>
+                </div>
+            </div>
+            <!-- 甜度 -->
+
+            <!-- 免费小料 -->
+            <div class="order-info">
+                <legend class="title" for="free">免费小料</legend>
+                <div class="choice">
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="珍珠" value="珍珠" />
+                        <label class="checkbox-info-label" for="珍珠">珍珠</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="波霸" value="波霸" />
+                        <label class="checkbox-info-label" for="波霸">波霸</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="椰果" value="椰果" />
+                        <label class="checkbox-info-label" for="椰果">椰果</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="西米露" value="西米露" />
+                        <label class="checkbox-info-label" for="西米露">西米露</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="茶冻" value="茶冻" />
+                        <label class="checkbox-info-label" for="茶冻">茶冻</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="红豆" value="红豆" />
+                        <label class="checkbox-info-label" for="红豆">红豆</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="free" id="仙草" value="仙草" />
+                        <label class="checkbox-info-label" for="仙草">仙草</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 免费小料 -->
+
+            <!-- 加料小区 -->
+            <div class="order-info">
+                <legend class="title" for="money">加料小区</legend>
+                <div class="choice">
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="money" id="冰淇淋（￥4）" value="冰淇淋（￥4）" />
+                        <label class="checkbox-info-label" for="冰淇淋（￥4）">冰淇淋（￥4）</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="money" id="布丁（￥3）" value="布丁（￥3）" />
+                        <label class="checkbox-info-label" for="波霸">布丁（￥3）</label>
+                    </div>
+                    <div class="checkbox-info">
+                        <input type="checkbox" name="money" id="奶霜（￥2）" value="奶霜（￥2）" />
+                        <label class="checkbox-info-label" for="奶霜（￥2）">奶霜（￥2）</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 加料小区 -->
+
+            <!-- 是否加冰 -->
+            <div class="order-info">
+                <legend class="title" for="ice">是否加冰</legend>
+                <div class="choice">
+                    <div class="choice-info">
+                        <input type="radio" name="ice" id="是" value="是" checked required>
+                        <label class="choice-info-label" for="是">是</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="ice" id="否" value="否" required>
+                        <label class="choice-info-label" for="否">否</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 是否加冰 -->
+
+            <!-- 是否去茶底 -->
+            <div class="order-info">
+                <legend class="title" for="tea">是否去茶底</legend>
+                <div class="choice">
+                    <div class="choice-info">
+                        <input type="radio" name="tea" id="是" value="是" checked required>
+                        <label class="choice-info-label" for="是">是</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="tea" id="否" value="否" required>
+                        <label class="choice-info-label" for="否">否</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 是否去茶底 -->
+
+            <!-- 地址 -->
+            <div class="order-info">
+                <legend class="title" for="address">你的地址</legend>
+                <div class="choice">
+                    <textarea name="address" cols="20" rows="7" required></textarea>
+                </div>
+            </div>
+            <!-- 地址 -->
+
+            <!-- 手机号 -->
+            <div class="order-info">
+                <legend class="title" for="telephone" >你的手机号</legend>
+                <div class="choice">
+                    <input name="telephone" type="tel" required>
+                </div>
+            </div>
+            <!-- 手机号 -->
+
+            <!-- 送达时间 -->
+            <div class="order-info">
+                <legend class="title" for="time">期望送达时间</legend>
+                <div class="choice">
+                    <input type="time" name="time" id="" required>
+                </div>
+            </div>
+            <!-- 送达时间 -->
+
+            <!-- 备注 -->
+            <div class="order-info">
+                <legend class="title" for="remark">备注</legend>
+                <div class="choice">
+                    <textarea name="remark" id="" cols="20" rows="7"></textarea>
+                </div>
+            </div>
+            <!-- 备注 -->
+
+            <!-- 支付方式 -->
+            <div class="order-info">
+                <legend class="title" for="pay-method">支付方式</legend>
+                <div class="choice">
+                    <div class="choice-info">
+                        <input type="radio" name="pay-method" id="微信支付" value="微信支付" checked required>
+                        <label class="choice-info-label" for="微信支付">微信支付</label>
+                    </div>
+                    <div class="choice-info">
+                        <input type="radio" name="pay-method" id="支付宝" value="支付宝" required>
+                        <label class="choice-info-label" for="支付宝">支付宝</label>
+                    </div>
+                </div>
+            </div>
+            <!-- 支付方式 -->
+
+            <!-- 提交 -->
+            <div class="order-info" id="btn">
+                <button type="submit" class="give btn">提交</button>
+                <button type="reset" class="refresh btn">重置</button>
+            </div>
+            <!-- 提交 -->
+        </form>
+        <!-- 回到顶部 -->
+        <div class="goBack">
+            回到顶部
+        </div>
+        <!-- 回到顶部 -->
+    </div>
+    <script src="./tea.js"></script>
+</body>
+
+</html>
