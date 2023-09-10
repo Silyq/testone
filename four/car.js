@@ -5,7 +5,7 @@ const carTypeSelect = document.getElementById("car-type");
 
 // 初始化速度和车型
 let speed = 1;
-let carType = "car1.jpg";
+let carType = "car1.png";
 let positionX = 0;
 let positionY = 0;
 let direction = "right"; // 初始方向为右
