@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="car.css">
+  <title>Control the Car</title>
+</head>
+
+<body>
+  <h1>操纵小车</h1>
+  <div class="controls">
+    <div class="title">
+      <label for="speed">速度:</label>
+      <select id="speed">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div class="title">
+      <label for="car-type">车型:</label>
+      <select id="car-type">
+        <option value="car1.png">Car 1</option>
+        <option value="car2.png">Car 2</option>
+        <option value="car3.png">Car 3</option>
+        <option value="car4.png">Car 4</option>
+        <option value="car5.png">Car 5</option>
+        <option value="car6.png">Car 6</option>
+      </select>
+    </div>
+  </div>
+  <div class="car-container">
+    <div class="carmove">
+      <img id="car" src="images/car1.png" alt="Car">
+    </div>
+  </div>
+  <script src="car.js"></script>
+</body>
+
+</html>
